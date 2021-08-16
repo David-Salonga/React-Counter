@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './style/Counter.css';
 import MultipleCounter from './components/MultipleCounter.js';
 
 function App() {

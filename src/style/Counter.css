@@ -1,0 +1,70 @@
+.minus {
+  background-color: lightgray;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 2px #668ad8;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: bold;
+  transition: .4s;
+}
+
+.plus {
+  background-color: lightgray;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 2px #668ad8;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: bold;
+  transition: .4s;
+}
+
+.plus:hover {
+    background: teal;
+}
+
+.minus:hover {
+    background: tomato;
+}
+.number {
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=number]{
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+  width: 150px;
+  text-align: center;
+  font-size: 15px;
+}
+
+input[type=number]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}

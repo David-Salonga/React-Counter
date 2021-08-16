@@ -12,7 +12,7 @@ function CounterGroup(props){
             {counterList.map((item, index) => (
             <Counter key={item + index}></Counter>
             ))}
-        <div>Counter Size: {props.counterSize}</div>
+        
         </div>
     );
 }
