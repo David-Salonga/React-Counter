@@ -13,9 +13,9 @@ function Counter(){
 
     return (
         <div>
-        <button onClick={decrease} className="minus">-</button>
-        <span className="number">{number}</span>
         <button onClick={increase} className="plus">+</button>
+        <span className="number">{number}</span>
+        <button onClick={decrease} className="minus">-</button>
         </div>
     );
 }
